@@ -18,8 +18,8 @@ const Header = () => {
             <img src={LogoHeader} alt="" />
           </button>
         </div>
-        <button onClick={toggleMenu} id={styles.menuIcon}>
-          <img src={menuActive ? iconCloser : iconBars} alt="" />
+        <button onClick={toggleMenu} id={styles.buttonMobile}>
+          <img src={menuActive ? iconCloser : iconBars} id={styles.menuIcon} alt="" />
         </button>
         <nav className={menuActive ? styles.active : ""}>
           <ul className={styles.ulMenu}>
