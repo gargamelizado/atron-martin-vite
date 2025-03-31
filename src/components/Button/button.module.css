@@ -1,5 +1,6 @@
 .WrapperButton{
     padding-top: 1rem;
+    cursor: pointer;
 }
 
 .WrapperButton a{
@@ -8,6 +9,7 @@
     padding: 8px 30px;
     border-radius: 10px;
     font-weight: 500;
+    background-color: var(--color-black);
 }
 .WrapperButton a:hover {
     background-color: var(--color-white);

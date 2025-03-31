@@ -6,7 +6,7 @@
   align-items: center;
 }
 .hero {
-  padding-top: 1rem;
+  padding-top: 7rem;
 }
 .heroContent {
   display: flex;
@@ -28,4 +28,20 @@
 
 .heroContent p {
   color: var(--color-white);
+  max-width: 35ch;
+}
+@media (max-width:600px){
+  .heroWrapper{
+    flex-direction: column;
+  }
+  
+  .heroWrapper h2 ,p{
+    text-align: center;
+  }
+  .heroContent{
+    align-items: center;
+  }
+  .imgHero{
+    padding: 32px;
+  }
 }
