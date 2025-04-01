@@ -1,4 +1,4 @@
-import styles from "../vantage/vantage.module.css";
+import styles from "../Vantage/Vantage.module.css";
 import Button from "../Button/button";
 import CarroCinza from "../../assets/carrow-cinza.png"
 
